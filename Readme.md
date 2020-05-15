@@ -10,6 +10,13 @@
  * All numbers divisible by 3 and 5 return the value FizzBuzz.
  * All numbers not divisible by 3 and 5 return the input number.
  
+ The service can be called using an HTTP post request with the localhost [Url](localhost:9012/fizzbuzz) and a JSON body
+ ```
+{
+	"fizzBuzzNumber":500
+}
+
+ ```
  ### Running the Application
  There are various ways to run the application locally, either by using your preferred IDE, i.e. IntellJ, Eclipse or by using
  the command line. Below you can find a snippet of how one can run the application using the CMD.
@@ -25,6 +32,9 @@
  swagger. A Screenshot of the Swagger UI can be seen below.
   
  ![Swagger UI for the Rest API](./swagger.PNG)
+ 
+ ### History
+ Version 1 (2020-05-15)
  
  ### License
  The MIT License (MIT)
