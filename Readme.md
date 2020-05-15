@@ -17,7 +17,7 @@
 }
 
  ```
- ### Running the Application
+ ## Running the Application
  There are various ways to run the application locally, either by using your preferred IDE, i.e. IntellJ, Eclipse or by using
  the command line. Below you can find a snippet of how one can run the application using the CMD.
  
@@ -26,17 +26,17 @@
     mvn spring-boot:run
 ```
  
- ### Swagger
+ ## Swagger
  When the application is started the post request can be sent using the swagger ui present in the application itself. 
  [Swagger UI local link](http://localhost:9012/swagger-ui.html). It is important that the application to be started before to use
  swagger. A Screenshot of the Swagger UI can be seen below.
   
  ![Swagger UI for the Rest API](./swagger.PNG)
  
- ### History
+ ## History
  Version 1 (2020-05-15)
  
- ### License
+ ## License
  The MIT License (MIT)
  
  Copyright (c) 2020 Prannoy Mulmi
