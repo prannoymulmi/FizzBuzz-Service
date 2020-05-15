@@ -19,8 +19,12 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 @ExtendWith(SpringExtension.class)
 class FizzBuzzControllerTest {
 
+  private MockMvc mockMvc;
+
   @Autowired
-  MockMvc mockMvc;
+  public FizzBuzzControllerTest(MockMvc mockMvc) {
+    this.mockMvc = mockMvc;
+  }
 
   @Test
   void processFizzBuzz_NumberDivisibleBy3_FizzReceived() throws Exception {
