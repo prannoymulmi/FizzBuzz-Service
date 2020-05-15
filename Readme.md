@@ -10,7 +10,7 @@
  * All numbers divisible by 3 and 5 return the value FizzBuzz.
  * All numbers not divisible by 3 and 5 return the input number.
  
- The service can be called using an HTTP post request with the localhost [Url](http://localhost:9012/fizzbuzz) and a JSON body
+ The service can be called using an HTTP post request with the localhost url [http://localhost:9012/fizzbuzz](http://localhost:9012/fizzbuzz) and a JSON body
  ```
 {
 	"fizzBuzzNumber":500
