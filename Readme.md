@@ -1,4 +1,4 @@
-#FizzBuzz Service
+# FizzBuzz Service
  This is a simple service which shows the simple service from the Kata catalog. 
  
  The rules of this application is very straight forward, which are as follows:
